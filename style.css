@@ -93,15 +93,60 @@ button {
 }
 
 .second {
+    display: flex;
+    justify-content: center;
     background-color: #e5e7eb;
     color: #1f2937;
-    font-size: 18px;
-    padding: 20px 200px;
+    font-size: 24px;
+    padding: 100px 150px;
     text-align: right;
+    font-weight:900;
+}
+
+.qb {
+    max-width: 750px;
 }
 
 .second .quote {
     font-size: 36px;
     font-style: italic;
     text-align: left;
+    font-weight:normal
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px 100px;
+}
+
+.banner {
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 100px;
+    border-radius: 10px;
+}
+
+.two {
+    border: white solid 1pt;
+    min-width: 120px;
+    max-height: 35px;
+}
+
+.btitle {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-content: center;
 }
